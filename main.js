@@ -52,8 +52,19 @@ function initSmoothScroll() {
   });
 }
 
+// Make whole project card clickable without blocking link hover
+function initCardClicks() {
+  document.querySelectorAll('.project-card[data-href]').forEach(card => {
+    card.addEventListener('click', e => {
+      if (e.target.closest('a')) return; // let actual links handle themselves
+      window.open(card.dataset.href, '_blank', 'noopener');
+    });
+  });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   initScrollAnimations();
   initHeaderShrink();
   initSmoothScroll();
+  initCardClicks();
 });

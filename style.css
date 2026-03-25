@@ -310,6 +310,7 @@ svg {
   transition: all 0.25s;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .project-card:hover {
@@ -368,10 +369,16 @@ svg {
   color: var(--green-500);
   font-size: 0.95rem;
   transition: color 0.2s;
+  position: relative;
+  z-index: 1;
 }
 
 .project-link:hover {
   color: var(--green-400);
+}
+
+.project-card[data-href] {
+  cursor: pointer;
 }
 
 /* ===== About ===== */
