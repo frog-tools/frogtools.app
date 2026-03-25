@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>frog tools — Open Source Apps</title>
+  <meta name="description" content="frog-tools builds free, open source tools that just work. Hop in and explore our projects.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐸</text></svg>">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-container">
+      <a href="/" class="logo">
+        <span class="logo-icon">🐸</span>
+        <span class="logo-text">frog-tools</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="https://github.com/frog-tools" class="nav-github" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-frog" aria-hidden="true">
+          <svg viewBox="0 0 200 180" class="frog-svg" width="200" height="180">
+            <!-- body -->
+            <ellipse cx="100" cy="120" rx="70" ry="50" fill="#4a7c59"/>
+            <!-- left eye -->
+            <circle cx="65" cy="70" r="25" fill="#5a9e6f"/>
+            <circle cx="65" cy="65" r="14" fill="white"/>
+            <circle cx="68" cy="63" r="7" fill="#1a1a2e"/>
+            <circle cx="70" cy="61" r="2.5" fill="white"/>
+            <!-- right eye -->
+            <circle cx="135" cy="70" r="25" fill="#5a9e6f"/>
+            <circle cx="135" cy="65" r="14" fill="white"/>
+            <circle cx="138" cy="63" r="7" fill="#1a1a2e"/>
+            <circle cx="140" cy="61" r="2.5" fill="white"/>
+            <!-- mouth -->
+            <path d="M 60 130 Q 100 155 140 130" stroke="#2d5a3a" stroke-width="3" fill="none" stroke-linecap="round"/>
+            <!-- left foot -->
+            <ellipse cx="50" cy="165" rx="20" ry="8" fill="#3d6b4a"/>
+            <!-- right foot -->
+            <ellipse cx="150" cy="165" rx="20" ry="8" fill="#3d6b4a"/>
+          </svg>
+        </div>
+        <h1>I'm here to build tools<br><span class="highlight">and eat flies</span> <span class="highlight-alt">and I'm all out of flies.</span></h1>
+        <p class="hero-sub">Creating beautiful, free, open source applications. Sometimes, they even work.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">See My Projects</a>
+          <a href="https://github.com/frog-tools" class="btn btn-secondary" target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+      <div class="lily-pads" aria-hidden="true">
+        <svg class="lily-pad lily-pad-1" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg">
+          <path d="M60 10 C28 10, 5 35, 5 58 C5 82, 28 95, 60 95 C92 95, 115 82, 115 58 C115 35, 92 10, 60 10 Z M60 52 L58 10 L62 10 Z" fill="#c084fc" opacity="0.7"/>
+          <path d="M60 52 Q40 40, 20 55" stroke="#a855f7" stroke-width="1.2" fill="none" opacity="0.5"/>
+          <path d="M60 52 Q42 55, 25 75" stroke="#a855f7" stroke-width="1.2" fill="none" opacity="0.5"/>
+          <path d="M60 52 Q78 40, 100 55" stroke="#a855f7" stroke-width="1.2" fill="none" opacity="0.5"/>
+          <path d="M60 52 Q78 55, 95 75" stroke="#a855f7" stroke-width="1.2" fill="none" opacity="0.5"/>
+          <path d="M60 52 Q60 70, 60 90" stroke="#a855f7" stroke-width="1.2" fill="none" opacity="0.5"/>
+        </svg>
+        <svg class="lily-pad lily-pad-2" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg">
+          <path d="M60 10 C28 10, 5 35, 5 58 C5 82, 28 95, 60 95 C92 95, 115 82, 115 58 C115 35, 92 10, 60 10 Z M60 52 L58 10 L62 10 Z" fill="#d8b4fe" opacity="0.6"/>
+          <path d="M60 52 Q40 40, 20 55" stroke="#c084fc" stroke-width="1.2" fill="none" opacity="0.4"/>
+          <path d="M60 52 Q42 55, 25 75" stroke="#c084fc" stroke-width="1.2" fill="none" opacity="0.4"/>
+          <path d="M60 52 Q78 40, 100 55" stroke="#c084fc" stroke-width="1.2" fill="none" opacity="0.4"/>
+          <path d="M60 52 Q78 55, 95 75" stroke="#c084fc" stroke-width="1.2" fill="none" opacity="0.4"/>
+          <path d="M60 52 Q60 70, 60 90" stroke="#c084fc" stroke-width="1.2" fill="none" opacity="0.4"/>
+        </svg>
+        <svg class="lily-pad lily-pad-3" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg">
+          <path d="M60 10 C28 10, 5 35, 5 58 C5 82, 28 95, 60 95 C92 95, 115 82, 115 58 C115 35, 92 10, 60 10 Z M60 52 L58 10 L62 10 Z" fill="#c084fc" opacity="0.5"/>
+          <path d="M60 52 Q40 40, 20 55" stroke="#a855f7" stroke-width="1.2" fill="none" opacity="0.4"/>
+          <path d="M60 52 Q42 55, 25 75" stroke="#a855f7" stroke-width="1.2" fill="none" opacity="0.4"/>
+          <path d="M60 52 Q78 40, 100 55" stroke="#a855f7" stroke-width="1.2" fill="none" opacity="0.4"/>
+          <path d="M60 52 Q78 55, 95 75" stroke="#a855f7" stroke-width="1.2" fill="none" opacity="0.4"/>
+          <path d="M60 52 Q60 70, 60 90" stroke="#a855f7" stroke-width="1.2" fill="none" opacity="0.4"/>
+        </svg>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <p class="section-sub">Tools I've released into the wild.</p>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-icon"><img src="assets/scout-128.png" /></div>
+          <h3>Scout</h3>
+          <p>A quick and easy way to manage potential uploads to RED. Scan barcodes to look up physical releases (CDs, vinyls, etc) on Discogs, and check availability and request status.</p>
+          <div class="project-tags">
+            <span class="tag">Typescript</span>
+            <span class="tag">React Native</span>
+            <span class="tag">Expo</span>
+          </div>
+          <a href="https://github.com/frog-tools/Scout" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+        
+        <article class="project-card">
+          <div class="project-icon">🪰</div>
+          <h3>TBA</h3>
+          <p>When I CBA.</p>
+          <!--
+          <div class="project-tags">
+            <span class="tag">Web</span>
+            <span class="tag">Go</span>
+          </div>
+          <a href="https://github.com/frog-tools" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+          -->
+        </article>
+        
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-content">
+        <h2>About frog-tools</h2>
+        <p>My name is froggo, and I'm an independent developer building open source software. I believe in freedom, privacy, and easy-to-use, beautiful design.</p>
+        <p>If you enjoy my apps or find them useful, please consider donating to a local LGBTQ+ rights charity. <a target="_blank" href="https://mermaidsuk.org.uk/">Mermaids UK</a> and <a target="_blank" href="https://www.thetrevorproject.org/">The Trevor Project</a> in the US do a lot of good work. 🏳️‍🌈</p>
+        <div class="about-values">
+          <div class="value">
+            <span class="value-icon">🌱</span>
+            <h3>Open Source</h3>
+            <p>All code is public and GPLv3-licensed. Fork it, modify it, free as in freedom.</p>
+          </div>
+          <div class="value">
+            <span class="value-icon">🔒</span>
+            <h3>Privacy First</h3>
+            <p>No analytics, no tracking. Your data is yours.</p>
+          </div>
+          <div class="value">
+            <span class="value-icon">🪶</span>
+            <h3>Lightweight</h3>
+            <p>Small, fast tools that do one thing and do it well.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Want to contribute?</h2>
+      <p>I'm always happy to see new faces in the pond. Check out my repos, open an bug report (yum!), or submit a PR.</p>
+      <a href="https://github.com/frog-tools" class="btn btn-primary" target="_blank" rel="noopener">Jump to GitHub</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <span class="footer-logo">🐸 frog-tools</span>
+      <p>Made with love by froggo. 💖</p>
+      <p class="footer-copy">&copy; 2026</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
