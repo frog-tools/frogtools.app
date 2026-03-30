@@ -21,10 +21,10 @@
             "screenshots": [],
             "versions": [
                 {
-                    "version": "0.2.3-1",
+                    "version": "0.2.3",
                     "date": "2026-03-30T17:49:00+03:00",
                     "localizedDescription": "First SideStore release!",
-                    "downloadURL": "https://github.com/frog-tools/Scout/releases/download/0.2.3-1/Scout-0.2.3-1.ipa-fakesigned.ipa",
+                    "downloadURL": "https://github.com/frog-tools/Scout/releases/download/0.2.3/Scout-0.2.3.ipa-fakesigned.ipa",
                     "size": 11900000,
                     "buildVersion": null,
                     "minOSVersion": null
