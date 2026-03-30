@@ -6,12 +6,12 @@
     "website": "https://frogtools.app",
     "tintColor": "#096b07",
     "featuredApps": [
-        "com.frogtools.scout"
+        "app.frogtools.scout"
     ],
     "apps": [
         {
             "name": "Scout",
-            "bundleIdentifier": "com.frogtools.scout",
+            "bundleIdentifier": "app.frogtools.scout",
             "developerName": "frog tools",
             "subtitle": "A quick and easy way to manage potential RED uploads. ",
             "localizedDescription": "Scan barcodes to look up physical releases (CDs, vinyls, etc) on Discogs, and check availability and request status on RED.",
