@@ -21,10 +21,10 @@
             "screenshots": [],
             "versions": [
                 {
-                    "version": "0.2.3",
-                    "date": "2026-03-30T11:21:00+03:00",
+                    "version": "0.2.32",
+                    "date": "2026-03-30T12:48:00+03:00",
                     "localizedDescription": "First SideStore release!",
-                    "downloadURL": "https://github.com/frog-tools/Scout/releases/download/0.2.31/Scout-0.2.31.ipa",
+                    "downloadURL": "https://github.com/frog-tools/Scout/releases/download/0.2.32/Scout-0.2.32.ipa",
                     "size": 12300000,
                     "buildVersion": null,
                     "minOSVersion": null
@@ -35,7 +35,8 @@
                 "privacy": {
                     "NSCameraUsageDescription": "Allow Scout to access your camera"
                 }
-            }
+            },
+            "patreon": {}
         }
     ],
     "news": []
