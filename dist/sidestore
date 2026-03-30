@@ -1,0 +1,43 @@
+{
+    "name": "frog tools",
+    "subtitle": "Open source tools by froggo",
+    "description": "I'm an independent developer building open source software. I believe in freedom, privacy, and lovely-to-use, beautiful design.",
+    "iconURL": "https://frogtools.app/assets/frogtools.png",
+    "website": "https://frogtools.app",
+    "patreonURL": "",
+    "tintColor": "#1d8c3c",
+    "featuredApps": [],
+    "apps": [
+        {
+            "name": "Scout",
+            "bundleIdentifier": "com.frogtools.scout",
+            "marketplaceID": "",
+            "developerName": "frog tools",
+            "subtitle": "A quick and easy way to manage potential RED uploads. ",
+            "localizedDescription": "Scan barcodes to look up physical releases (CDs, vinyls, etc) on Discogs, and check availability and request status on RED.",
+            "iconURL": "https://i.imgur.com/sFDUPVc.png",
+            "tintColor": "#c80404",
+            "category": "utilities",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "0.2.3",
+                    "date": "2026-03-30T11:21:00+03:00",
+                    "localizedDescription": "First SideStore release!",
+                    "downloadURL": "https://github.com/frog-tools/Scout/releases/download/0.2.31/Scout-0.2.31.ipa",
+                    "size": 12300000,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {
+                    "NSCameraUsageDescription": "Allow Scout to access your camera"
+                }
+            },
+            "patreon": {}
+        }
+    ],
+    "news": []
+}
