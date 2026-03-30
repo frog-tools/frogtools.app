@@ -10,7 +10,6 @@
         {
             "name": "Scout",
             "bundleIdentifier": "com.frogtools.scout",
-            "marketplaceID": "",
             "developerName": "frog tools",
             "subtitle": "A quick and easy way to manage potential RED uploads. ",
             "localizedDescription": "Scan barcodes to look up physical releases (CDs, vinyls, etc) on Discogs, and check availability and request status on RED.",
