@@ -4,7 +4,7 @@
     "description": "I'm an independent developer building open source software. I believe in freedom, privacy, and lovely-to-use, beautiful design.",
     "iconURL": "https://frogtools.app/assets/frogtools.png",
     "website": "https://frogtools.app",
-    "tintColor": "#58c46a",
+    "tintColor": "#096b07",
     "featuredApps": [
         "com.frogtools.scout"
     ],
