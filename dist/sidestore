@@ -35,7 +35,8 @@
                 "privacy": {
                     "NSCameraUsageDescription": "Allow Scout to access your camera"
                 }
-            }
+            },
+            "patreon": {}
         }
     ],
     "news": []
